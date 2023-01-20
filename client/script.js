@@ -100,7 +100,7 @@ const response = await fetch('https://codex-ai-93c0.onrender.com/', {
   } else {
     const err = await response.text()
 
-    messageDiv.innerHTML = "Something went wrong"
+    messageDiv.innerHTML = "Something went wrong 1"
     alert(err)
   }
 }
